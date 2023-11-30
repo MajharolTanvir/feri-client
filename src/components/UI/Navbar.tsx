@@ -1,3 +1,4 @@
+"use client"
 import React, { useMemo, useState } from "react";
 import { Badge, Popover } from "antd";
 import { HiMiniShoppingBag } from "react-icons/hi2";
@@ -49,7 +50,7 @@ const Navbar: React.FC = () => {
   );
 
   return (
-    <section className="bg-slate-900">
+    <section className="bg-slate-900 py-3">
       <div className="w-[95%] md:w-[90%] mx-auto ">
         <div className="grid grid-cols-2 md:grid-cols-3 justify-between items-center gap-5">
           <div className="flex gap-4 items-center">
